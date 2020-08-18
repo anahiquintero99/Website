@@ -22,6 +22,7 @@ valores
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
 }
 
 h1,
@@ -40,7 +41,6 @@ h1 {
     color: white;
     /*text-transform: uppercase;/*
     /*ext-decoration: dashed;*/
-    margin: 0;
 }
 
 h1 strong{
@@ -56,6 +56,10 @@ h1 strong{
     background-position-x: right;
 }
 
+.portafolio {
+    background: #fafafa;
+}
+
 .project {
     /*border-top: 10px solid red;
     border-right: 10px solid green;
@@ -66,9 +70,24 @@ h1 strong{
     /*border-style: solid;*/
     border:1px solid gray;
     border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
 }
 
 .project-details {
+    width: 500px;
+}
+
+.event {
+    border:1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+}
+
+.event-description {
     width: 500px;
 }
 
