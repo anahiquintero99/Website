@@ -1,15 +1,14 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Cormorant Upright', serif;
     margin: 0;
 }
 
-h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Cormorant Upright', serif;
 }
 
 h1 {
@@ -26,7 +25,7 @@ h1 strong{
 
 h2 {
     color:#fd7a90;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Cormorant Upright', serif;
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 40px;
@@ -38,7 +37,6 @@ h2 {
 .hero {
     height: 300px;
     background-image: url(images/fondo-rosa.png);
-    width: 1400px;
     height: 530px;
     text-align: center;
     display: flex;
@@ -59,6 +57,7 @@ h2 {
     display:block;
     margin: auto;
     margin-top: 100px;
+    padding: 50px;
 }
 
 .project {
@@ -67,11 +66,19 @@ h2 {
 }
 .project-details {
     text-align: center;
-    font-size: 30px;
-    padding: 30px;
+    font-size: 25px;
+    font-weight: 300;
+}
+.poject-title {
+    color: #fd7a90;
 }
 
-
+.project-description {
+    color: rgb(73, 73, 73);
+    padding-top: 30px;
+    padding-bottom: 80px;
+    font-family: 'Cormorant Upright', serif;
+}
 
 
 .header {
@@ -118,81 +125,13 @@ ul {
     height: inherit;
 }
 
-.footer {
-    color: white;
-    background-color: #1b2127;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.footer img {
-    vertical-align: middle;
-}
-
-.footer a {
-    color: white;
-}
-
 .flexboox {
     display: flex;
     flex-wrap: wrap;
 }
 
-.box {
-    width: 50px;
-    height: 50px;
-    margin: 5px;
-    border: 1px solid red;
-
-    flex-shrink: 0;
-}
-
-.event-list {
-    display: flex;
-    flex-wrap: wrap;
-}
-.event-list-title {
-    margin-left: 20px;
-}
-.event {
-    margin: 10px;
-    width: 480px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    overflow: hidden;
-    background: #f4fbff;
-}
-
-.event img {
-    width: 480px;
-    height: 200px;
-    object-fit: cover;
-}
-
-.event-detail {
-    margin: 20px 80px;
-    margin-top: -40px;
-    background-color: white;
-    position: relative;
-    padding: 20px;
-    text-align: center;
-}
-
-.event-description {
-    text-align: left;
-}
-
-.event-url {
-    color: #056fff;
-    border: 1px solid;
-    padding: 5px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
 .contact {
-    background-color: #056fff;
+    background-color: #e696a3;
     color: white;
     height: 150px;
     display: flex;
@@ -247,7 +186,7 @@ ul {
 }
 
 .form-email h3 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Cormorant Upright', serif;
 }
 
 .container {
