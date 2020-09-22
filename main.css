@@ -1,85 +1,10 @@
-body {
+/* ------------ GENERAL ------------ */
+* {
     font-family: 'Cormorant Upright', serif;
     margin: 0;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Cormorant Upright', serif;
-}
-
-h1 {
-    font-size: 40px;
-    line-height: 1.5em;
-    letter-spacing: -.2px;
-    color:white;
-    margin: 0;
-}
-
-h1 strong{
-    color:black;
-}
-
-h2 {
-    color:#fd7a90;
-    font-family: 'Cormorant Upright', serif;
-    font-weight: bold;
-    font-size: 24px;
-    margin-bottom: 40px;
-    padding: 5px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.hero {
-    height: 300px;
-    background-image: url(images/fondo-rosa.png);
-    height: 530px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.hero-image {
-    object-fit: cover;
-}
-
-.portafolio {
-    background: #fafafa;
-    padding: 20px;
-}
-
-.circle-image {
-    display:block;
-    margin: auto;
-    margin-top: 100px;
-    padding: 50px;
-}
-
-.project {
-    background: white;
-    align-items: center;
-}
-.project-details {
-    text-align: center;
-    font-size: 25px;
-    font-weight: 300;
-}
-.poject-title {
-    color: #fd7a90;
-}
-
-.project-description {
-    color: rgb(73, 73, 73);
-    padding-top: 30px;
-    padding-bottom: 80px;
-    font-family: 'Cormorant Upright', serif;
-}
-
+/* ------------ MENU Y LOGO ------------ */
 
 .header {
     background-color:#e696a3;
@@ -115,8 +40,6 @@ ul {
     height: inherit;
 }
 
-
-
 .figure {
     margin: 0;
 }
@@ -129,7 +52,103 @@ ul {
     display: flex;
     flex-wrap: wrap;
 }
+/* ------------ PRESENTACION Y FOTO------------ */
 
+h1 {
+    font-size: 40px;
+    line-height: 1.5em;
+    letter-spacing: -.2px;
+    color:white;
+    margin: 0;
+}
+
+h1 strong{
+    color:black;
+}
+
+
+.hero {
+    height: 300px;
+    background-image: url(images/fondo-rosa.png);
+    height: 530px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-image {
+    object-fit: cover;
+}
+
+/* ------------ SECCION PORTAFOLIO ------------ */
+.portafolio {
+    background: #fafafa;
+    padding: 20px;
+}
+
+.circle-image {
+    display:block;
+    margin: auto;
+    margin-top: 100px;
+    padding: 50px;
+}
+.project {
+    background: white;
+    align-items: center;
+}
+
+h2 {
+    color:#fd7a90;
+    font-size: 24px;
+    margin-bottom: 40px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.project-details {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+}
+.poject-title {
+    color: #fd7a90;
+}
+
+.project-description {
+    color: rgb(73, 73, 73);
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+/* ------------ SECCION HOBBIES ------------ */
+
+.hobbies {
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hobbies-description {
+    width: 50%;
+}
+
+.hobbies-image {
+    width: 50%;
+}
+
+.hobbies-list {
+    font-size: 24px;
+    line-height: 2em;
+    Padding-left:160px;
+}
+
+.hobbies-image {
+    text-align: center;
+    padding-bottom: 60px;
+}
+/* ------------ SECCION CONTACTO ------------ */
 .contact {
     background-color: #e696a3;
     color: white;
